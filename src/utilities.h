@@ -10,36 +10,23 @@
 
 #include "include.h"
 
-#include "/nh/research/zehuag/GSL/include/gsl/gsl_linalg.h"
-#include "/nh/research/zehuag/GSL/include/gsl/gsl_matrix.h"
-#include "/nh/research/zehuag/GSL/include/gsl/gsl_mode.h"
-#include "/nh/research/zehuag/GSL/include/gsl/gsl_permutation.h"
-#include "/nh/research/zehuag/GSL/include/gsl/gsl_poly.h"
-#include "/nh/research/zehuag/GSL/include/gsl/gsl_vector.h"
+#include <gsl_linalg.h>
+#include <gsl_matrix.h>
+#include <gsl_mode.h>
+#include <gsl_permutation.h>
+#include <gsl_poly.h>
+#include <gsl_vector.h>
 
-/*
-#include "/nh/research/zehuag/petsc-dev/include/petsc-private/vecimpl.h"
-#include "/nh/research/zehuag/petsc-dev/include/petscbag.h"
-#include "/nh/research/zehuag/petsc-dev/include/petscdm.h"
-#include "/nh/research/zehuag/petsc-dev/include/petscis.h"
-#include "/nh/research/zehuag/petsc-dev/include/petscksp.h"
-#include "/nh/research/zehuag/petsc-dev/include/petscmat.h"
-#include "/nh/research/zehuag/petsc-dev/include/petscpc.h"
-#include "/nh/research/zehuag/petsc-dev/include/petscsf.h"
-#include "/nh/research/zehuag/petsc-dev/include/petscsys.h"
-#include "/nh/research/zehuag/petsc-dev/include/petscvec.h"
-*/
-
-#include "petsc-private/vecimpl.h"
-#include "petscbag.h"
-#include "petscdm.h"
-#include "petscis.h"
-#include "petscksp.h"
-#include "petscmat.h"
-#include "petscpc.h"
-#include "petscsf.h"
-#include "petscsys.h"
-#include "petscvec.h"
+#include <petsc-private/vecimpl.h>
+#include <petscbag.h>
+#include <petscdm.h>
+#include <petscis.h>
+#include <petscksp.h>
+#include <petscmat.h>
+#include <petscpc.h>
+#include <petscsf.h>
+#include <petscsys.h>
+#include <petscvec.h>
 
 typedef enum { STATIC_CONDENSATION_ON,
     STATIC_CONDENSATION_OFF } static_condesation_flag;

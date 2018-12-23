@@ -16,11 +16,11 @@
 #include <string>
 #include <vector>
 
-#include "math.h"
-#include "metis.h"
-#include "mpi.h"
-#include "parmetis.h"
-#include "petscvec.h"
+#include <math.h>
+#include <metis.h>
+#include <mpi.h>
+#include <parmetis.h>
+#include <petscvec.h>
 
 typedef enum { DIRICHLET,
     NEUMANN,
