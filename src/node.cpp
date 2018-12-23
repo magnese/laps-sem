@@ -7,6 +7,7 @@
 
 #include "node.h"
 
-void node::print(void){
-  cout<<global_index<<" "<<coordinates[0]<<" "<<coordinates[1]<<" "<<endl;
+void node::print(void)
+{
+    cout << global_index << " " << coordinates[0] << " " << coordinates[1] << " " << endl;
 }
